@@ -6,19 +6,19 @@
 #
 backports.tempfile==1.0
 backports.weakref==1.0.post1  # via backports.tempfile
-beautifulsoup4==4.6.0     # via bs4
+beautifulsoup4==4.6.3     # via bs4
 bs4==0.0.1
-certifi==2018.4.16        # via requests
+certifi==2018.10.15        # via requests
 cfscrape==1.9.5
 chardet==3.0.4            # via requests
-click==6.7
+click==7.0
 decorator==4.3.0          # via validators
 idna==2.7                 # via requests
 img2pdf==0.2.4
-natsort==5.3.3
-pillow==5.1.0             # via img2pdf
+natsort==5.4.1
+pillow==5.3.0             # via img2pdf
 requests==2.20.0
 six==1.11.0               # via validators
-tqdm==4.23.4
-urllib3==1.23             # via requests
+tqdm==4.28.1
+urllib3==1.24             # via requests
 validators==0.12.2

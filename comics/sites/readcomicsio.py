@@ -5,8 +5,9 @@ class ReadComics(BaseComics):
     """
     class for https://readcomics.io
     """
+
     def __init__(self, url):
-        self._image_regex = '<img[^>]+src="([^">]+)"'
+        self._image_regex = r'<img[^>]+src="([^">]+)"'
         self.antibot = False
         super(ReadComics, self).__init__(url)
 
